@@ -12,7 +12,7 @@ h1 {
 body{
     background-image: url(./back.png);
     background-repeat:no-repeat  ;
-    background-size :2000px;
+    background-size :1800px;
 }
 /* div {
  border-color: rgb(15, 222, 236);
@@ -21,7 +21,46 @@ body{
  margin-right: 25%;
  margin-left: 25%; 
 } */
-img{
-    width: 24vw; 
-    height: 41vh;
+/* img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+} */
+#monguela{
+    margin : auto;
+    width : 120px ;
+    background : white ; 
+    text-align: center;
+    border-width: 30%;
+    border-radius: 10px;
+    border-style: solid;
+    box-shadow: 15px 10px 20px #6660 ;
+
+}
+.b1{
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 47%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.b2{
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    right: 45%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.btn{
+    margin: 1.5%;
+    position:relative;
+    left: 43%;
+   
+}
+#tac{
+    display: none;
+
 }
