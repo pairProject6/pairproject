@@ -1,30 +1,3 @@
-// function makeStopwatch() {
-//     return {
-//         stop2: undefined,
-//         time: 180,
-//         startwatch: startwatch,
-//         stopwatch: stopwatch,
-//         reset: reset,
-//     };
-// }
-
-
-// const Start = document.querySelector('h2') ; 
-// Start = start() ; 
-
-//  function start() {
-//     setInterval(function() {
-//         if(Start<=0){
-//             clearInterval(Start=0);
-//         }
-//         Start.innerHTML = '180' ; 
-//        time = time - 1;  
-//     }, 1000);
-// };
-
-// var stopwatch = function() {
-//     
-// };
 
 // var reset = function() {
 //     clearInterval(this.stop2);
@@ -54,3 +27,8 @@ function Start () {
       Start();
       stop() ; 
   })
+
+
+
+
+
