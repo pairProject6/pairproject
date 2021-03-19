@@ -1,28 +1,34 @@
-function makeStopwatch() {
-    return {
-        stop2: undefined,
-        time: 180,
-        startwatch: startwatch,
-        stopwatch: stopwatch,
-        reset: reset,
-        
-    };
+
+// var reset = function() {
+//     clearInterval(this.stop2);
+//     this.time = 0;
+// };
+
+function Start () {
+    var minute = 3;
+    var sec = 30;
+    sta = setInterval(function() {
+      document.getElementById("timer").innerHTML = minute + " : " + sec;
+      sec--;
+      if (sec == 00) {
+        minute --;
+        sec = 59;
+        // if (minute == 0) {
+        //   minute = 3;
+        // }
+      }
+    }, 1000);
+  }
+  function Stop() {
+    clearInterval(sta);
 }
 
-var startwatch = function() {
-    var that = this;
-    this.stop2 = setInterval(function() {
-        that.time = that.time -1;
-    },1000);
-};
+  $(document).ready(function(){
+      Start();
+      stop() ; 
+  })
 
-var stopwatch = function() {
-    clearInterval(this.stop2);
-};
 
-var reset = function() {
-    clearInterval(this.stop2);
-    this.time = 0;
-};
 
-////clearTimeout() 
+
+

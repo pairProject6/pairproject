@@ -1,0 +1,30 @@
+h1{
+    color:rgb(57, 237, 250);
+    text-align : center ;
+}
+header{
+    border-style: solid;
+    border-color: blue;
+}
+body{
+    justify-content: center;
+}
+
+#monguela{
+    margin : auto;
+    width : 120px ;
+    background : white ; 
+    text-align: center;
+    border-radius: 10px;
+    border-style: solid;
+    box-shadow: 15px 10px 20px #6660 ;
+
+}
+button{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
